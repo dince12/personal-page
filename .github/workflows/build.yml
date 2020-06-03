@@ -32,7 +32,8 @@ jobs:
           npm ci
           npm run build:ci
 
-      - uses: actions/aws/cli@master
+      # not long term, need to create custom action
+      - uses: chrislennon/action-aws-cli@v1.1
 
       - name: List Buckets
         run: aws s3 ls
