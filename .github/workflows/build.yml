@@ -32,7 +32,7 @@ jobs:
           npm ci
           npm run build:ci
 
-      - uses: actions/action-aws-cli@v1.1
+      - uses: actions/aws/cli@master
 
       - name: List Buckets
         run: aws s3 ls
