@@ -1,0 +1,137 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  padding: 1rem;
+}
+
+.pt {
+  padding-top: 3%;
+}
+
+.pb {
+  padding-bottom: 3%;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.text {
+  color: white;
+  font-size: 3vh;
+
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.wrapper {
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+  background: #949494;
+  .title-header {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .splitter-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .splitter {
+      width: 10%;
+      height: 1px;
+      border-bottom: 1px solid white;
+    }
+  }
+}
+
+.text-wrapper {
+  width: 100%;
+  display: flex;
+
+  margin-bottom: 3%;
+  justify-content: center;
+  .center-text {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+
+    .text {
+      color: white;
+      font-size: 3vh;
+
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+}
+
+.card {
+  height: 10rem;
+  margin-left: 5%;
+  cursor: pointer;
+  margin-right: 5%;
+  border-radius: 4px;
+  background-color: #747474;
+  box-shadow: 0px 0px 10px 5px #a5a5a5;
+
+  &:hover {
+    box-shadow: 0px 0px 10px 5.5px #636363;
+  }
+
+  .so-box {
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: space-between;
+  }
+}
+
+.cards {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.ps {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mt {
+    margin-top: 10%;
+  }
+
+  .text {
+    font-size: 3vh!important;
+  }
+
+  .center-text {
+    width: 50% !important;
+  }
+}
