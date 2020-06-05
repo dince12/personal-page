@@ -155,9 +155,6 @@ img {
   display: flex;
   justify-content: center;
   height: 60px;
-  cursor: pointer;
-
-
 
   .icon-holder {
     display: flex;
@@ -198,17 +195,17 @@ img {
   }
 
   .bar {
-    background: grey!important;
+    background: grey !important;
   }
 
   .text-color {
-    background: black!important;
-    color: white!important;
+    background: black !important;
+    color: white !important;
 
   }
 
   .button-wrapper {
-    visibility: unset!important;
+    visibility: unset !important;
   }
 }
 
@@ -220,7 +217,7 @@ img {
     background: #edf6ff;
     display: grid;
     grid-gap: 10%;
-    height: unset!important;
+    height: unset !important;
   }
 
   .mt {
@@ -228,16 +225,16 @@ img {
   }
 
   .bar {
-    background: grey!important;
+    background: grey !important;
   }
 
   .text-color {
-    background: black!important;
-    color: white!important;
+    background: black !important;
+    color: white !important;
   }
 
   .button-wrapper {
-    visibility: unset!important;
+    visibility: unset !important;
   }
 
   .text {
