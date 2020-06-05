@@ -87,7 +87,7 @@ a {
   justify-content: center;
 
   .bar {
-    width: 50%;
+    width: 85%;
     height: 25px;
     display: flex;
     background: white;
@@ -179,7 +179,6 @@ img {
   background: #edf6ff;
   display: grid;
   grid-gap: 0;
-  height: 50%;
 }
 
 .ps {
@@ -191,7 +190,6 @@ img {
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
   .cards {
-    grid-template-columns: repeat(2, 1fr);
     padding-left: 10%;
     padding-right: 10%;
     background: #edf6ff;
@@ -217,7 +215,6 @@ img {
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
   .cards {
-    grid-template-columns: repeat(3, 1fr);
     padding-left: 10%;
     padding-right: 10%;
     background: #edf6ff;
@@ -245,9 +242,5 @@ img {
 
   .text {
     font-size: 3vh !important;
-  }
-
-  .center-text {
-    width: 50% !important;
   }
 }
